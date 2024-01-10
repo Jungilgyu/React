@@ -8,11 +8,13 @@ import NotificationList from './chapter06/NotificationList';
 import Accomodate from './chapter07/Accomodate';
 import ConfirmButton from './chapter08/ConfirmButton';
 import LandingPage from './chapter09/LandingPage';
+import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
 
 const root = document.getElementById('root');
 const rootElement = (
   <React.StrictMode>
-    <LandingPage />
+    <SignUp />
   </React.StrictMode>
 );
 
